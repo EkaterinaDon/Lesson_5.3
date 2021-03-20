@@ -6,8 +6,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ImageCollectionViewCell.h"
+#import "PhotoImage.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UICollectionViewDelegate, UICollectionViewDataSource>
 
 
 @end
